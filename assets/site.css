@@ -12,8 +12,6 @@
   --border: #dce7ee;
   --text: #0e2a47;
   --text-2: #4a6076;
-  --caution-bg: #fef6dc;
-  --caution-text: #7a5a00;
   --danger: #c62828;
   --radius: 18px;
   --max: 1120px;
@@ -94,8 +92,8 @@ figcaption { font-size: 13px; color: var(--text-2); text-align: center; margin-t
 .shots figure { margin: 0; scroll-snap-align: start; }
 .shots .phone { border-width: 6px; border-radius: 28px; }
 
-.note { background: var(--caution-bg); color: var(--caution-text); border-radius: 14px; padding: 16px 18px; font-size: 15px; }
-.note strong { color: #5c4300; }
+.note { background: var(--surface-muted); color: var(--navy); border: 1px solid var(--border); border-left: 4px solid var(--green); border-radius: 14px; padding: 16px 18px; font-size: 15px; }
+.note strong { color: var(--navy-deep); }
 .safety { background: var(--navy); color: #fff; }
 .safety p, .safety li { color: rgba(255, 255, 255, 0.9); }
 .safety a { color: var(--meadow); }
