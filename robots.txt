@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bulentimat-ai.github.io/gentian-site/sitemap.xml
